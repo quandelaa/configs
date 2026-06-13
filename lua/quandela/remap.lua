@@ -36,8 +36,7 @@ map("n", "<C-Down>",  "<C-w>j")
 -- Tabs
 map("n", "<C-t>",   ":tabnew<CR>")
 map("n", "<Tab>",   ":tabnext<CR>")
-map("n", "[", ":tabnext<CR>")
-map("n", "]", ":tabprev<CR>")
+map("n", "<S-Tab>", ":tabprev<CR>")
 
 -- Explorer
 map("n", "\\\\", ":Ex<CR>")
