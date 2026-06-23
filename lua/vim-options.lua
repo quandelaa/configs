@@ -5,6 +5,7 @@ vim.cmd("set shiftwidth=2")
 
 vim.o.smoothscroll = true
 vim.o.number = true
+vim.o.relativenumber = true
 
 vim.lsp.config("lua_ls", {
    settings = {
