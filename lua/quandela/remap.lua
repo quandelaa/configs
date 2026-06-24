@@ -1,6 +1,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = ","
 
+vim.keymap.set("n", "<Leader>dc", "gra")
+
 vim.keymap.set('t', '<C-[>', '<C-\\><C-N>')
 vim.keymap.set('n', ';', ':')
 
