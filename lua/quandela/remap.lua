@@ -23,6 +23,8 @@ vim.keymap.set("n", "<A-l>", ":nohlsearch<CR><C-l>")
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-e>", "<C-u>zz")
+vim.keymap.set("v", "<C-e>", "<C-u>zz")
+vim.keymap.set("v", "<C-d>", "<C-d>zz")
 
 vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("i", "kj", "<Esc>")

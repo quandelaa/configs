@@ -29,6 +29,9 @@ vim.lsp.config('basedpyright', {
         useLibraryCodeForTypes = true,
         diagnosticMode = "openFilesOnly",
       },
+      python = {
+        pythonPath = "C:/Users/Lenovo/oh_py/.venv/Scripts/activate",
+      },
     },
   },
 })
